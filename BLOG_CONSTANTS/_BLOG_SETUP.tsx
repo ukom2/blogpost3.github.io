@@ -2,18 +2,17 @@ import { LogoType, NavbarType } from "../src/shared/enums";
 import { IAuthor, iNavSetup, iSEO } from "../src/shared/interfaces";
 import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin, AiFillInstagram, AiFillFacebook } from "react-icons/ai";
 
-/**
  * EXAMPLE AUTHOR
  * 
- export const AUTHOR_NAME: IAuthor = {
-    name: "Full Name",
-    designation: "Work Designation",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+ export const EDWARD: IAuthor = {
+    name: "Edward Kou",
+    designation: "IT Intern",
+    bio: "I love programming.",
     profilePic: "",
      social: [
         {
             icon: <AiFillGithub />,
-            link: 'https://github.com/'
+            link: 'https://github.com/ukom2'
         },
         {
             icon: <AiFillLinkedin />,
@@ -21,7 +20,6 @@ import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin, AiFillInstagram, AiFill
         },
     ]
 }
- */
 
 export const MAYUR: IAuthor = {
     name: "Mayur Nalwala",
@@ -61,6 +59,23 @@ export const RUPALI: IAuthor = {
 // This can your company name / your name etc for SEO purposes
 export const WEBSITE_NAME: string = 'Next Js Blog Template';
 export const WEBSITE_URL: string = 'https://nextjs-simple-blog-template.web.app/';
+
+    export const PRIMARY_NAV = {
+        type: NavbarType.DEFAULT,
+        logo: {},
+        navLinks: [],
+        sideNavLinks: [],
+        socials: [],
+    }
+
+        export const PRIMARY_NAV = {
+            type: NavbarType.DEFAULT,
+        }
+        // or
+        export const PRIMARY_NAV = {
+            type: NavbarType.CENTERED,
+        }
+
 
 /**
  * This is the main navigation setup.
