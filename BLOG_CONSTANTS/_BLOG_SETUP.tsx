@@ -2,8 +2,6 @@ import { LogoType, NavbarType } from "../src/shared/enums";
 import { IAuthor, iNavSetup, iSEO } from "../src/shared/interfaces";
 import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin, AiFillInstagram, AiFillFacebook } from "react-icons/ai";
 
- * EXAMPLE AUTHOR
- * 
  export const EDWARD: IAuthor = {
     name: "Edward Kou",
     designation: "IT Intern",
@@ -178,7 +176,7 @@ export const DEFAULT_SEO: iSEO = {
     description: "A simple blog template using NextJS and Typescript.",
     keywords: "Blog, next js, template, next js blog, blog setup, typescript, nextjs typescript, react js blog template, responsive blog template",
     url: WEBSITE_URL,
-    author: `${MAYUR.name}, ${RUPALI.name}`,
+    author: `${EDWARD.name}, ${RUPALI.name}`,
     twitterHandle: '@WebExpe',
     ogImage: '/public/images/og-image.jpg'
 }
